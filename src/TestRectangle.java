@@ -22,8 +22,14 @@ public class TestRectangle {
 }
 
 class Rectangle {
-	double width = 1;
-	double height = 1;
+	double width;
+	double height;
+	
+	//Construct a rectangle with default width=1 and height=1
+	Rectangle() {	
+		width = 1;
+		height = 1;
+	}
 	
 	//Construct a rectangle with width and height
 	Rectangle(double width, double height) {
@@ -33,11 +39,11 @@ class Rectangle {
 	
 	//Return the area of rectangle
 	double getArea() {
-		return this.width * this.height;
+		return width * height;
 	}
 	
 	//Return the perimeter of rectangle
 	double getPerimeter() {
-		return 2 * (this.width + this.height);
+		return 2 * (width + height);
 	}
 }
