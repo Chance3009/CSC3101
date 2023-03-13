@@ -36,6 +36,7 @@ class Rectangle {
 		return this.width * this.height;
 	}
 	
+	//Return the perimeter of rectangle
 	double getPerimeter() {
 		return 2 * (this.width + this.height);
 	}

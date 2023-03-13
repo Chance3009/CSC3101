@@ -4,6 +4,7 @@
 
 public class TestStock {
 	public static void main(String[] args) {
+		//Create a stock with symbol "ORCL" and name "Oracle Corperation"
 		Stock stock1 = new Stock("ORCL", "Oracle Corperation");
 		stock1.previousClosingPrice = 34.5;
 		stock1.currentPrice = 34.35;
