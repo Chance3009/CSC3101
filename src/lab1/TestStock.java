@@ -2,6 +2,8 @@
 // Matric number: 215035
 // Lab No: 1
 
+package lab1;
+
 public class TestStock {
 	public static void main(String[] args) {
 		//Create a stock with symbol "ORCL" and name "Oracle Corperation"

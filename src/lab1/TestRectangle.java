@@ -2,6 +2,8 @@
 // Matric number: 215035
 // Lab No: 1
 
+package lab1;
+
 public class TestRectangle {
 	public static void main(String[] args) {
 		//Construct a rectangle with width 4 and height 40
