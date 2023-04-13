@@ -63,6 +63,6 @@ public class TestLibraryBook {
 		
 		// Display LibraryBook in the list
 		System.out.println("\n" + books);
-		System.out.println("Thank you for using this programme");
+		System.out.println("Thank you for using this program.");
 	}
 }
