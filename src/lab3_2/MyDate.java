@@ -9,7 +9,9 @@ import java.util.GregorianCalendar;
 
 
 public class MyDate{
-	private int year, month, day;
+	private int year;
+	private int month;
+	private int day;
 	
 	// Create MyDate object with current date
 	public MyDate() {

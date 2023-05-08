@@ -21,7 +21,7 @@ public class TestLibraryBook {
 		String response = "Something else";
 		
 		// Loop until user input "QUIT"
-		while (!response.equals("QUIT")) {
+		while (!"QUIT".equals(response)) {
 			duplicate = false;
 			
 			// Prompt user to input the information of book

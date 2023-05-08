@@ -29,6 +29,7 @@ public class NewspaperSubscriber {
 	}
 	
 	// Check whether address of two NewspaperSubscriber objects are equal, return false if the object compared is not an instance of NewspaperSubscriber
+	@Override
 	public boolean equals(Object o) {
 		if (o instanceof NewspaperSubscriber)
 			return address.equals(((NewspaperSubscriber)o).getAddress());

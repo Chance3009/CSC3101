@@ -36,9 +36,9 @@ public class Subscribers {
 		System.out.print("Service Type (Seven day subscriber | Weekday subscriber | Weekend subscriber): ");
 		String type = sc.nextLine().strip().toUpperCase().replace(" ", "");
 		
-		if (type.equals("SEVENDAYSUBSCRIBER"))
+		if ("SEVENDAYSUBSCRIBER".equals(type))
 			news = new SevenDaySubscriber();
-		else if (type.equals("WEEKDAYSUBSCRIBER"))
+		else if ("WEEKDAYSUBSCRIBER".equals(type))
 			news = new WeekDaySubscriber();
 		else 
 			news = new WeekendSubscriber();
