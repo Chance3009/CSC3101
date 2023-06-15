@@ -16,12 +16,12 @@ public class ArrayIO {
     public static void main(String[] args) {
         // Create an output stream for file.dat
         try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("file.dat", true))) {
-        int[] arr = {9, 8, 7, 1, 2, 3};
-        // Write data to the file
-        out.writeObject(arr);
-        out.writeDouble(11.5);
-        out.writeObject(new Date());
-        out.writeUTF("Hello, world!");
+	        int[] arr = {9, 8, 7, 1, 2, 3};
+	        // Write data to the file
+	        out.writeObject(arr);
+	        out.writeDouble(11.5);
+	        out.writeObject(new Date());
+	        out.writeUTF("Hello, world!");
 
         } catch (IOException e) {
             e.printStackTrace();
